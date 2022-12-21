@@ -1,0 +1,103 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    font-size: 20px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    color:beige;
+    display:flex;
+    justify-content: space-between;
+}
+
+.hero {
+    list-style-type: none; 
+}
+
+header li {
+    display:inline
+}
+
+nav {
+    color: bisque;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(https://cdn.columbiauniversitybootcamp.com/wp-content/uploads/sites/108/2021/03/CDG_blog_post_image_02-2-850x412.jpg);
+}
+
+nav h2 {
+  justify-content: flex-end;
+    padding: 14px 20px;
+}
+
+main {
+  display: flex;
+  text-align: center;
+}
+
+section h2 {
+  display: flex;
+  color: #13293d;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+section {
+  flex:30%;
+  padding:20px;
+  display:flex;
+ }
+ 
+ #about {
+  text-align: center;
+  display: block;
+ }
+  #work {
+display: block ;
+justify-content: flex-start;
+  }
+ */
+
+#footer {
+  position:absolute;
+  align-items: flex-end;
+
+}
+
+* footer h2 {
+text-align: center;
+;
+
+}
+.items1 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around; */
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+    header {
+      background: cornflowerblue;
+    }
+  }
+  
+@media screen and (max-width: 768px) {
+    .items {
+      width: 100%;
+    }
+    header {
+      background: cornflowerblue;
+    }
+  }
+  
